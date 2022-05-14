@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div >
-      <div className="px-5 py-5 flex justify-around mt-10">
+    <div className="flex flex-col justify-center items-center bg-green-500 py-4 mb-0">
+      {/* <div className="px-5 py-5 flex justify-around mt-10">
         <div className="flex flex-col items-center gap-2">
           <h6 className="font-medium">Available cities:</h6>
           <span className="text-sm">Ifrane, Morocco</span>
@@ -15,8 +15,8 @@ function Footer() {
           <span className="text-sm">Foodie</span>
           <span className="text-sm">Crepeto</span>
         </div>
-      </div>
-      <p className="ml-36 mt-16 mb-5">© 2022 IFood. All Rights Reserved.</p>
+      </div> */}
+      <p className="text-white italic font-medium text-md">© 2022 IfraneEat. All Rights Reserved.</p>
     </div>
   );
 }
