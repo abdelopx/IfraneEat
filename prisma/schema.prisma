@@ -18,6 +18,7 @@ model Restaurant {
   hours      String 
   image      String
   creditCard Boolean
+  mapLink     String
   dishs      Dish[]
 
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col justify-center items-center bg-green-500 py-4 mb-0">
+    <div className="flex flex-col justify-center items-center bg-green-500 py-4 bottom-0 w-full">
       {/* <div className="px-5 py-5 flex justify-around mt-10">
         <div className="flex flex-col items-center gap-2">
           <h6 className="font-medium">Available cities:</h6>

@@ -8,15 +8,15 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen bg-slate-100 flex flex-col">
-      <section className="flex justify-center flex-col items-center gap-4 mt-24">
+    <div className="h-full w-full bg-slate-100 flex flex-col">
+      <section className="flex justify-center flex-col items-center gap-4 mt-24 lg:h-96">
         <h1 className="font-semibold text-5xl text-green-500">IfraneEat</h1>
         <h2 className="font-medium text-2xl mb-3">
           Explore restaurants all over Ifrane city.
         </h2>
         <p>
           <span className="text-5xl mr-2">🍔</span>
-          <span className="text-5xl mr-2">🌮 </span>
+          <span className="text-5xl mr-2">🌮</span>
           <span className="text-5xl mr-2">🌯</span>
           <span className="text-5xl mr-2">🥞</span>
           <span className="text-5xl mr-2">🍹</span>
@@ -27,7 +27,7 @@ export default function Home() {
           </a>
         </Link>
       </section>
-      <section className="bg-green-500 py-10 mt-24 flex gap-12 flex-wrap justify-center items-center">
+      <section className="bg-green-500 py-24 mt-24 flex gap-12 flex-wrap justify-center items-center">
         <div className="flex flex-col overflow-hidden rounded-xl bg-white drop-shadow-2xl transition hover:scale-105 ease-in duration-300">
           <Image
             className="max-w-100"
@@ -46,7 +46,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden rounded-xl bg-white drop-shadow-2xl transition hover:scale-105 ease-in duration-300">
+        <div id="aboutus" className="flex flex-col overflow-hidden rounded-xl bg-white drop-shadow-2xl transition hover:scale-105 ease-in duration-300">
           <Image
             className="object-none rounded-xl overflow-hidden drop-shadow-md max-w-100"
             src="/food_5.jpeg"
@@ -68,7 +68,7 @@ export default function Home() {
         <div className="flex flex-col overflow-hidden rounded-xl bg-white drop-shadow-2xl transition hover:scale-105 ease-in duration-300">
           <Image
             className="rounded-xl object-none overflow-hidden drop-shadow-md max-w-100"
-            src="/food1.jpeg"
+            src="/sushi.jpg"
             alt=""
             width={330}
             height={220}
