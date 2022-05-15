@@ -31,7 +31,7 @@ export default function Home() {
         <div className="flex flex-col overflow-hidden rounded-xl bg-white drop-shadow-2xl transition hover:scale-105 ease-in duration-300">
           <Image
             className="max-w-100"
-            src="/food_3.jpeg"
+            src="/mexicansalad.jpg"
             alt=""
             width={330}
             height={220}
