@@ -11,7 +11,7 @@ function id({ restaurant }) {
 export async function getServerSideProps(context) {
   const { id } = context.query;
 
-  const reponse = await fetch(`http://localhost:3000/api/restaurants/${id}`);
+  const reponse = await fetch(`https://ifrane-eat.vercel.app//api/restaurants/${id}`);
   const responseData = await reponse.json();
 
   return {
