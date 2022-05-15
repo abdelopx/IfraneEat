@@ -20,7 +20,7 @@ function RestaurandCard({ restaurant }) {
         <div className="flex gap-4">
           <Image
             className="overflow-hidden rounded-full"
-            src={`/../public/${restaurant.image}.jpg`}
+            src={`/${restaurant.image}.jpg`}
             alt="Picture of restaurants"
             width={100}
             height={100}
